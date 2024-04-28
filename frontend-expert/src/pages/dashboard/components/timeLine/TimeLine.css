@@ -1,0 +1,28 @@
+.timeline {
+  border-left: 1px solid #007bff;
+  position: relative;
+  list-style: none;
+}
+
+.timeline .timeline-item {
+  position: relative;
+}
+
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .timeline-item:after {
+  background-color: #007bff;
+  left: -37px;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: '';
+}
+
+.word-break {
+  word-break: keep-all;
+}
